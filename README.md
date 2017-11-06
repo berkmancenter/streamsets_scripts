@@ -5,9 +5,9 @@
 Windows should use Ubuntun from Windows Store.
 
 0. $ sudo su (Windows 10)
-0. # apt-get update
-0. # apt-get install openjdk-8-jdk
-0. # exit
+0. \# apt-get update
+0. \# apt-get install openjdk-8-jdk
+0. \# exit
 0. $ vim ~/.bashrc, add: ulimit -n 32768 and: export SDC\_ALLOW\_UNSUPPORTED\_JDK=true
 0. $ wget https://archives.streamsets.com/datacollector/2.7.2.0/tarball/streamsets-datacollector-all-2.7.2.0.tgz
 0. $ tar xvzf streamsets-datacollector-all-2.7.2.0.tgz
